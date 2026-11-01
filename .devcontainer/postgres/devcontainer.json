@@ -6,7 +6,7 @@
         "../../scripts/ci/docker-compose/devcontainer-postgres.yml"
     ],
     "features": {
-        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {"moby": false}
     },
     "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"
